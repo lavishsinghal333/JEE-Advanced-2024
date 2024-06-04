@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
   </head>
-  <body>
+  <body style="background-color: rgb(195, 222, 230)">
     <header>
       <img
         src="https://banner2.cleanpng.com/20180426/lwq/kisspng-computer-icons-login-management-user-5ae155f3386149.6695613615247170432309.jpg"
         height="100"
       />
       <br />
-      <u><h1>Login</h1></u>
+      <u><h1 style="color: rgb(188, 56, 29)">Login</h1></u>
     </header>
     <main>
       <input type="text" placeholder="Roll Number" />
@@ -20,13 +21,17 @@
       <br />
       <input type="password" placeholder="Password" />
       <br />
-      <p>FORGOT ACCOUNT DETAILS?</p>
-      <label for="101">
-        <input type="checkbox" value="OTP" name="Verification" id="101" />Login
-        with OTP
-      </label>
-      <br />
-      <br />
+      <p style="color: blue">FORGOT ACCOUNT DETAILS?</p>
+      <p style="color: green">
+        <label for="101">
+          <input
+            type="checkbox"
+            value="OTP"
+            name="Verification"
+            id="101"
+          />Login with OTP
+        </label>
+      </p>
       <input type="submit" value="Submit" />
     </main>
   </body>
